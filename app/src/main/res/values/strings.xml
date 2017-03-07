@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">AirqualityCollection</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="dialog_title">注意</string>
+    <string name="dialog_sure">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <!--加载-->
+    <string name="loading_message">请稍后</string>
+    <!--刷新-->
+    <string name="title_refresh">刷新</string>
+    <string name="title_next">下一步</string>
+    <string name="title_back">返回</string>
+    <!--选择工地-->
+    <string name="selection_title">选择采集拆迁工地</string>
+    <string name="selection_project">拆迁工地选择</string>
+    <string name="selection_sure">下一步</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="selection_alert_refresh">加载数据出错，请点击刷新。</string>
+    <string name="selection_alert_nodata">暂无监控拆迁点信息。</string>
+    <string name="selection_selectDialog_title">请选择拆迁工地</string>
+    <string name="selection_selectDialog_sure">确定选择</string>
+    <string name="selection_selectDialog_cancel">取消选择</string>
+    <string name="selection_isRefreshing">正在刷新，请稍后……</string>
+    <!--连接蓝牙-->
+    <string name="btconnect_title">连接蓝牙</string>
+    <string name="btconnect_name">蓝牙名称：</string>
+    <string name="btconnect_id">蓝牙MAC：</string>
+    <string name="btconnect_connect_suc">蓝牙连接成功。</string>
+    <string name="btconnect_connect_fail">蓝牙连接失败，请重试。</string>
+    <string name="btconnect_textview_bondedDevice">可连接检测设备</string>
+    <string name="btconnect_alert_noBondedDevice">暂无可连接检测设备，请先选择设备进行配对</string>
+    <string name="btconnect_textview_vailableDevice">可配对设备</string>
+    <string name="btconnect_alert_noUnBondedDevices">暂无可配对设备，请选择搜索蓝牙设备</string>
+    <string name="btconnect_button_search_stop">停止搜索</string>
+    <string name="btconnect_button_search">搜索蓝牙设备</string>
+    <string name="btconnect_button_search_again">重新搜索</string>
+    <string name="btconnect_alert_connect_message_part1">您确定要与设备号为：</string>
+    <string name="btconnect_alert_connect_message_part2">的设备进行连接吗？</string>
+    <string name="btconnect_alert_connect_message_sure">确定连接</string>
+    <string name="btconnect_alert_connect_message_cancel">暂不连接</string>
+    <string name="btconnect_alert_connecting_message">正在连接蓝牙设备，请稍后……</string>
+
+
+    <!-- 信息采集页面 -->
+    <string name="collection_title">空气质量采集</string>
+    <string name="collection_navigate_video">摄像</string>
+    <string name="collection_navigate_photo">拍照</string>
+    <string name="collection_function_delete">删除</string>
+    <string name="collection_function_submit">提交</string>
+    <string name="collection_function_check">查看</string>
+    <string name="collection_pm_title">PM值采集进度：</string>
+    <string name="collection_check_description">说明:</string>
+    <string name="collection_check_problem_have">有</string>
+    <string name="collection_check_problem_none">无</string>
+    <string name="collection_check_enclosure_tips">工地周边</string>
+    <string name="collection_check_enclosure">围挡问题</string>
+    <string name="collection_check_wash_tips">出入车辆</string>
+    <string name="collection_check_wash">冲洗问题</string>
+    <string name="collection_check_wet_tips">拆除施工</string>
+    <string name="collection_check_wet">湿法作业</string>
+    <string name="collection_check_cover_tips">物料堆放</string>
+    <string name="collection_check_cover">苫盖问题</string>
+    <string name="collection_check_stone_tips">现场地面</string>
+    <string name="collection_check_stone">硬化问题</string>
+    <string name="collection_check_other">其他问题</string>
+    <string name="collection_alert_noSelectedToPreview">请选择需要预览的媒体文件。</string>
+    <string name="collection_alert_noSelectedToDelete">请选择需要删除的媒体文件。</string>
+    <string name="collection_alert_deleteMessage_part1">您确定要删除所选中的</string>
+    <string name="collection_alert_deleteMessage_part2">个媒体文件吗？</string>
+    <string name="collection_alert_deleteMessage_sure">确定删除</string>
+    <string name="collection_alert_deleteMessage_cancel">暂不删除</string>
+    <string name="collection_alert_exitMessage">您尚未提交此次信息采集内容，确定要退出当前页面吗？</string>
+    <string name="collection_alert_exitMessage_sure">确定退出</string>
+    <string name="collection_alert_exitMessage_cancel">暂不退出</string>
+    <string name="collection_alert_collectionOverTime_message">您本次采集时长已超过30分钟，需要您对信息重新采集。</string>
+    <string name="collection_alert_collectionOverTime_sure">知道了</string>
+    <string name="collection_alert_mediaCollectionTimeSpace_part1">距离您上次拍摄视频或图片文件时间间隔小于</string>
+    <string name="collection_alert_mediaCollectionTimeSpace_part2">秒，请稍后再进行拍摄工作。</string>
+    <string name="collection_alert_submited_unCollection">您已经成功提交任务，无需再拍摄视频或图片文件。</string>
+    <string name="collection_alert_submit_mediaSizeNotEnough">您拍摄的视频或图片文件总数不足五张，请您拍摄五张后再进行上传。</string>
+    <string name="collection_alert_submit_inputMessageNotEnough">检查内容您尚未填写完整，请将检查内容填写完整后在进行上传。</string>
+    <string name="collection_alert_submitDialog_message">您是否确定完成此次采集任务，并上传采集信息？</string>
+    <string name="collection_alert_submitDialog_sure">确定上传</string>
+    <string name="collection_alert_submitDialog_cancel">暂不上传</string>
+    <string name="collection_edittext_noError">无问题</string>
+    <string name="collection_alert_uploading">正在提交任务，请稍后……</string>
+    <string name="collection_alert_uploading_fail">提交任务失败，请检查网络连接或到网络良好的地点进行任务上传。</string>
+    <string name="collection_alert_bluetooth_disconnect_message">系统检测您尚未连接空气质量采集设，或设备连接已断开，请重新连接设备。</string>
+    <string name="collection_alert_bluetooth_disconnect_sure">去设置连接</string>
+    <string name="collection_pm_progress">PM</string>
+    <string name="collection_airPop_item_pm25">PM2.5</string>
+    <string name="collection_airPop_item_pm10">PM10</string>
+    <string name="collection_airPop_item_time">采集时间</string>
+    <string name="collection_alert_airquality_unDone">空气质量数据采集尚未完成，请稍后再上传。</string>
+    <string name="collection_alert_submit_suc">恭喜您，本次任务提交成功，感谢您的使用。</string>
+    <string name="collection_alert_submit_fail">很遗憾，提交任务失败，请您检查网络连接或到网络较好的地点进行任务提交。</string>
+    <string name="collection_alert_submited_editPic">您已经提交本次任务，无法删除图片。</string>
+    <string name="collection_alert_submited_reSubmit">本次任务已经提交成功，无需再次提交。</string>
+    <string name="collection_alert_checkBTConnect_status">请检查空气检测设备连接状态。</string>
+    <string name="collection_alert_networkSpeed_slow">对不起，系统检测您当前网速过慢，无法提交任务，请选择网速较好的环境下进行任务提交工作。</string>
+</resources>

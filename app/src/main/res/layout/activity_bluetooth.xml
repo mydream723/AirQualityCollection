@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_page"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_smaller">
+
+        <TextView
+            android:id="@+id/tv_bluetoothActivity_bonded"
+            style="@style/font_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_smaller"
+            android:text="@string/btconnect_textview_bondedDevice" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/lv_bluetoothActivity_bonded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/tv_bluetoothActivity_bondedEmpty"
+                style="@style/font_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/padding_default"
+                android:gravity="center"
+                android:text="@string/btconnect_alert_noBondedDevice"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_bluetoothActivity_unbonded"
+            style="@style/font_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_smaller"
+            android:text="@string/btconnect_textview_vailableDevice" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/lv_bluetoothActivity_unBonded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/tv_bluetoothActivity_unbondedEmpty"
+                style="@style/font_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/padding_default"
+                android:gravity="center"
+                android:text="@string/btconnect_alert_noUnBondedDevices"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_bluetoothActivity_search"
+        style="@style/font_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_smaller"
+        android:background="@color/colorAccent"
+        android:text="@string/btconnect_button_search" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="font_defalut">#000000</color>
+    <color name="font_widget">#FFFFFF</color>
+    <color name="bg_dialog_main">#FFFFFF</color>
+    <!--页面背景色-->
+    <color name="bg_page">#F5F5F5</color>
+</resources>
