@@ -9,7 +9,7 @@ public class WebConstants {
     /**
      * 访问基本地址
      */
-    public static final String URL_BASE = "http://60.29.58.226:10080/";
+    public static final String URL_BASE = "http://192.168.3.115:8081/";
     /**
      * 返回成功
      */
